@@ -213,6 +213,7 @@ class InspectorTestCase(GraphicUnitTest):
         self.render(self.root)
 
     def test_widget_popup(self, *args):
+        assert False
         EventLoop.ensure_window()
         self._win = EventLoop.window
 
